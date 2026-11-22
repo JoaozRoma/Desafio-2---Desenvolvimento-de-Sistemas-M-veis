@@ -1,11 +1,11 @@
 ```markdown
-# FastLocation
+ FastLocation
 
 Aplicativo mobile desenvolvido em Flutter para a disciplina de Desenvolvimento de Sistemas Móveis (SENAI).
 
 O projeto atende à demanda da empresa fictícia FastDelivery: permitir que os entregadores consultem e confirmem endereços diretamente pelo celular, agilizando as entregas e evitando ligações desnecessárias para a matriz.
 
-## Funcionalidades
+ Funcionalidades
 
 - Tela de abertura animada com redirecionamento automático para a tela principal.
 - Consulta de endereço por CEP consumindo a API pública do [ViaCEP](https://viacep.com.br/).
@@ -15,7 +15,7 @@ O projeto atende à demanda da empresa fictícia FastDelivery: permitir que os e
 - Histórico de consultas em tela dedicada com carregamento automático ao abrir a página.
 - Traçado de rota da localização atual do aparelho até o último endereço consultado (ou qualquer item salvo no histórico), utilizando `geocoding` e `map_launcher`.
 
-## Tecnologias e Pacotes Utilizados
+ Tecnologias e Pacotes Utilizados
 
 - Flutter / Dart (configurado exclusivamente para Android e iOS)
 - Dio (`^4.0.6`) — requisições HTTP à API ViaCEP
@@ -26,7 +26,7 @@ O projeto atende à demanda da empresa fictícia FastDelivery: permitir que os e
 - Map Launcher (`^2.2.1+1`) — abertura do aplicativo de mapas instalado no dispositivo para traçar a rota
 - Build Runner, MobX Codegen e Hive Generator — geração de código (`.g.dart`)
 
-## Estrutura do Projeto
+ Estrutura do Projeto
 
 ```text
 lib/
@@ -58,14 +58,14 @@ lib/
 
 ```
 
-## Como executar o projeto
+ Como executar o projeto
 
-### Pré-requisitos
+ Pré-requisitos
 
  [Flutter SDK](https://docs.flutter.dev/get-started/install) instalado e configurado no PATH (testado e validado com Flutter 3.7.12 / Dart 2.19)
  Emulador Android/iOS ou dispositivo físico conectado
 
-### Passo a passo
+ Passo a passo
 
 1. Clone o repositório:
 
