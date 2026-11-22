@@ -32,7 +32,7 @@ jobs:
       - name: Garantir arquivos base do Android (Gradle Wrapper e ícones)
         run: |
           cp android/app/src/main/AndroidManifest.xml /tmp/AndroidManifest.xml
-          flutter create --org br.com.fastdelivery --platforms=android .
+          flutter create --project-name fast_location --org br.com.fastdelivery --platforms=android .
           cp /tmp/AndroidManifest.xml android/app/src/main/AndroidManifest.xml
           chmod +x android/gradlew
           rm -rf test
